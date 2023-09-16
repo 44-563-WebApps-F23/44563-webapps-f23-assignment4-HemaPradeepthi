@@ -24,3 +24,22 @@
 .brovik{
     color: crimson;
 }
+table{
+    margin: 4px;
+    border: 2px solid darkgreen;
+    border-collapse: collapse;
+    text-align: left;
+    border-width: 4px;
+}
+th {
+    text-align: center;
+    height: 35px;
+    padding:4px;
+}
+td {
+    height: 30px;
+    padding:3px;
+}
+tr:nth-child(even){
+    background-color: rgb(135, 223, 188);
+}
