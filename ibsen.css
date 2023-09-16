@@ -9,7 +9,12 @@
     color: black;
     background-color: rgb(158, 240, 236);
 }
-.name{}
+.name:hover{
+    color: rgb(75, 10, 85);
+    text-shadow: 4px 4px 5px rgb(87, 116, 2);
+    border: 2px solid lightseagreen;
+    padding: 2px;
+}
 
 .direction:hover{
     color:rgb(22, 114, 8);
