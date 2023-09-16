@@ -43,3 +43,6 @@ td {
 tr:nth-child(even){
     background-color: rgb(135, 223, 188);
 }
+.solness{
+    color: rgb(205, 91, 205);
+}
