@@ -12,6 +12,7 @@
 .name:hover{
     color: rgb(75, 10, 85);
     text-shadow: 4px 4px 5px rgb(87, 116, 2);
+    filter: blur(0.6px);
     border: 2px solid lightseagreen;
     padding: 2px;
 }
@@ -50,4 +51,19 @@ tr:nth-child(even){
 }
 .solness{
     color: rgb(205, 91, 205);
+}
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
 }
